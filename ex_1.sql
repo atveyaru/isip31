@@ -54,5 +54,6 @@ WHERE p.id = oi.id_products
   AND oi.id_orders = o.id
 GROUP BY p.name;
 
+COMMIT;
 
 
